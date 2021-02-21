@@ -1,0 +1,118 @@
+.container {
+  background-color: lightslategrey;
+  color: white;
+}
+
+.table {
+  background-image: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  width: 100%;
+  height: 800px;
+}
+th {
+  font-size: 20px;
+}
+td {
+  background-color: white;
+  font-size: 18px;
+}
+.no {
+  text-align: center;
+}
+.title {
+  padding-left: 3%;
+}
+span{
+cursor: pointer;
+}
+
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.671); /* Black w/ opacity */
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 20px 0px ;
+}
+.modal-content-header{
+  border-bottom-color: lightgray;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.create{
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.news{
+  background-color: white;
+  border-radius: 0px 0px 20px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+}
+.news1{
+  font-size: 20px;
+  font-weight: bold;
+}
+.news2{
+  font-size: 20px;
+
+}
+
+@media only screen and (max-width:600px){
+  th {
+    font-size: 18px;
+  }
+  td {
+
+    font-size: 15px;
+  }
+  .modal-content {
+
+    width: 90%;
+
+  }
+  .news1{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .news2{
+    font-size: 18px;
+  
+  }
+}
